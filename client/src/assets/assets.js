@@ -20,10 +20,10 @@ import credit_star from './credit_star.svg'
 import profile_icon from './profile_icon.png'
 import model1 from './Photos/1.png'
 import model2 from './Photos/2.jpg'
-import model3 from './Photos/3.jpg'
-import model4 from './Photos/4.webp'
-import model5 from './Photos/5.jpg'
-import model6 from './Photos/6.webp'
+import model3 from './Photos/3.png'
+import model4 from './Photos/4.png'
+import model5 from './Photos/5.png'
+import model6 from './Photos/6.png'
 
 export const assets = {
     logo,
