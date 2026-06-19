@@ -9,6 +9,14 @@
 Imagify is an AI-powered image generation platform built developed with the help of MERN stack.
 It allows users to create images from text prompts using the ClipDrop API while managing usage through a credits-based system.
 
+- Engineered 4 RESTful APIs for end-to-end AI image generation, integrating the ClipDrop API within a MERN architecture
+
+- Implemented credit-based system with JWT authentication and bcrypt password hashing for secure usage tracking
+
+- Achieved 258ms average response time, 68% faster than Google’s 800ms TTFB benchmark
+
+- Achieved 5.1s average response time for AI image generation, dependent on external ClipDrop API processing latency
+
 - [Reference](https://youtu.be/DSGFZb8KiO8?feature=shared)
 
 - [Demo Video](https://drive.google.com/file/d/1T_Hv3dWHMZ-tGKOafK2p0wcCg5gAmQRN/view?usp=sharing)
