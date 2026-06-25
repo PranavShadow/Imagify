@@ -12,10 +12,10 @@ const Description = () => {
         <div>
           <h2 className='text-3xl font-medium max-w-lg mb-4'>Introducing the AI-Powered Text to Image Generator</h2>
           <p className='text-gray-600 mb-4'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequatur consequuntur maxime nemo quis cupiditate perspiciatis molestiae harum odio autem, quam porro alias cumque maiores, non sapiente similique accusamus? Earum corrupti necessitatibus molestias! Laboriosam vitae error nesciunt molestias cupiditate consequuntur eum totam sit harum eligendi, iste, eius nisi itaque voluptas! 
+            Generate images from text prompts using an AI image generation API integrated into the application. The platform handles authentication, credit management, and a streamlined user experience around the image generation workflow
           </p>
           <p className='text-gray-600'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita repellat nam quos harum facere ipsum autem similique cum possimus at aperiam distinctio, impedit perspiciatis velit dolorem provident tempora. Porro placeat facilis natus iure debitis labore quod. Labore nesciunt adipisci fugiat?
+            Imagify is a full-stack MERN application that enables users to generate AI images from text prompts through the ClipDrop API, with built-in authentication, credit management, and payment integration
           </p>
         </div>
       </div>

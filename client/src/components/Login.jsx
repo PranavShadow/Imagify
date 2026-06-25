@@ -82,7 +82,7 @@ const Login = () => {
 
             <p className='text-sm text-blue-600 my-4 cursor-pointer'>Forgot password?</p>
 
-            <button className='bg-blue-600 w-full text-white py-2 rounded-full'>{state === 'Login' ? 'Login' : 'Create Account'}</button>
+            <button className='bg-blue-600 w-full text-white py-2 rounded-full cursor-pointer'>{state === 'Login' ? 'Login' : 'Create Account'}</button>
             { state === 'Login' ? <p onClick={() => setState('Sign Up')} className='mt-5 text-center'>Don't have an account? <span className='text-blue-600 cursor-pointer'>Sign Up</span></p>:<p onClick={() => setState('Login')} className='mt-5 text-center'>Already have an account? <span className='text-blue-600 cursor-pointer'>Login</span></p>}
 
             <img onClick={() => setShowLogin(false)} src={assets.cross_icon} alt="" className='absolute top-5 right-5 cursor-pointer' />

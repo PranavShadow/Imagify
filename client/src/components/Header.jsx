@@ -27,10 +27,10 @@ const Header = () => {
 
       <motion.h1 className='text-4xl max-w-[300px] sm:text-7xl sm:max-w-[590px] mx-auto mt-10 text-center ' initial={{opacity:0}} animate={{opacity: 1}} transition={{delau: 0.4, duration: 2}}>Turn text to <span className='text-blue-600'>image</span> in, seconds</motion.h1>
       <motion.p className='text-center max-w-xl mx-auto mt-5' initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{delay:0.6, duration:0.8}}>
-        Unleash your Creativity with AI. Turn your imagination into visual art in seconds - just type, and watch the magic happen.
+        Bring your ideas to life with AI-powered image generation. Enter a text prompt, and generate unique visuals in seconds through an integrated AI image generation service.
       </motion.p>
 
-      <motion.button onClick={onClickHandler} whileHover={{scale:1.05}} whileTap={{scale:0.95}} initial={{opacity:0}} animate={{opacity:1}} transition={{default: {duration: 0.5}, opacity: {delay:0.8, duration:1}}} className='sm:text-lg text-white bg-black w-auto mt-8 px-12 py-2.5 flex items-center gap-2 rounded-full'>Generate Images <img className='h-6' src={assets.star_group} alt="" /></motion.button>
+      <motion.button onClick={onClickHandler} whileHover={{scale:1.05}} whileTap={{scale:0.95}} initial={{opacity:0}} animate={{opacity:1}} transition={{default: {duration: 0.5}, opacity: {delay:0.8, duration:1}}} className='sm:text-lg text-white bg-black w-auto mt-8 px-12 py-2.5 flex items-center gap-2 rounded-full cursor-pointer'>Generate Images <img className='h-6' src={assets.star_group} alt="" /></motion.button>
 
       <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1, duration:1}}  className='flex flex-wrap justify-center mt-16 gap-3'>
         {models.map((item,index)=> (
