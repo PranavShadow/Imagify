@@ -5,6 +5,6 @@
 # Ignore all node_modules folders anywhere
 node_modules/
 
-# Ignore any folder named IMage anywhere
+# Ignored folders
 Imagify Generation/
 client/src/assets
