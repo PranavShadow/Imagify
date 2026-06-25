@@ -7,3 +7,4 @@ node_modules/
 
 # Ignore any folder named IMage anywhere
 Imagify Generation/
+client/src/assets
