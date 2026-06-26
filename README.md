@@ -27,7 +27,7 @@ It allows users to create images from text prompts using the ClipDrop API while 
 
 🔗 **View Project Here:**  
 
-https://imagify-frontend-p65c.onrender.com/
+https://imagify-pranavgg.vercel.app/
 
 ## Running Tests
 
@@ -73,4 +73,5 @@ To run this project, you will need to add the following environment variables to
 Landing Page
 
 <img width="1898" height="908" alt="image" src="https://github.com/user-attachments/assets/11e28143-7010-4f2f-ae76-1dd194b1fe67" />
-<img width="1897" height="903" alt="image" src="https://github.com/user-attachments/assets/0384d749-f374-44b2-844b-0407dad3e636" />
+<img width="1896" height="909" alt="image" src="https://github.com/user-attachments/assets/c1947eb2-fad7-4e7a-84d5-831c93063c9b" />
+
