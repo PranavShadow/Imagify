@@ -28,6 +28,8 @@ const BuyCredit = () => {
         </div>
       ))}
     </div>
+    
+    <h1 className='mt-8 text-center text-xl font-medium mb-6 sm:mb-10'>Currently our Service plans are not attached to any Payment Gateway</h1>
     </motion.div>
   )
 }
