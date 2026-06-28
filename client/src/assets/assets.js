@@ -90,7 +90,8 @@ export const testimonialsData = [
         name:'Zainab Shujat',
         role:'Content Creator',
         stars:5,
-        text:`I liked how simple the workflow is. The credit system is straightforward, and generating images doesn't require any technical knowledge. It's a great tool for quickly visualizing ideas.`
+        text:`Speed makes a bigger difference than people realize. Being able to turn a simple prompt like "pixel art of mountains" into a polished image in under ten seconds makes brainstorming much more enjoyable. The platform keeps the creative process moving instead of slowing it down.
+`
     },
 ]
 
